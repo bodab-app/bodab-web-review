@@ -1,0 +1,6 @@
+Bodab uses the Korean and English LSTM recognition data distributed in
+@tesseract.js-data/kor and @tesseract.js-data/eng 1.0.0 (4.0.0_best_int).
+The trained models originate from the Tesseract project under Apache-2.0.
+https://github.com/tesseract-ocr/tessdata_best
+https://github.com/naptha/tessdata
+The Apache-2.0 license is included in LICENSE-tesseract.txt.

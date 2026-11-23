@@ -1,0 +1,48 @@
+name: bodab
+description: 보답 건강 기록 및 가족 돌봄 웹앱
+publish_to: none
+version: 2.0.1+10
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: 1.0.9
+  file_selector: 1.1.0
+  flutter_svg: 2.3.0
+  image_picker: 1.2.3
+  url_launcher: 6.3.2
+  web: 1.1.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/ai.png
+    - assets/figma_review/
+    - assets/fonts/NotoSansKR_OFL.txt
+  fonts:
+    - family: NotoSansKRReview
+      fonts:
+        - asset: assets/fonts/NotoSansKRReview.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansKRReviewBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/NotoSansKRReview.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansKRReviewBold.ttf
+          weight: 700
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/NotoSansKRReview.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansKRReviewBold.ttf
+          weight: 700
